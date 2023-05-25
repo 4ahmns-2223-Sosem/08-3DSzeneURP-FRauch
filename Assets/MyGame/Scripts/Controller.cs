@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class WindradController : MonoBehaviour
+public class Controller : MonoBehaviour
 {
     public int anzahlWindraeder = 3; 
     public GameObject[] windraeder; 
@@ -14,19 +14,19 @@ public class WindradController : MonoBehaviour
         
         for (int i = 0; i < anzahlWindraeder; i++)
         {
-            windraederStatus[i] = true; /
+            windraederStatus[i] = true; 
 
             
             switch (i)
             {
                 case 0:
-                    windraeder[i].GetComponent<WindradScript>().Ausschalten(); 
+                    windraeder[i].GetComponent<Windmill>().Ausschalten(); 
                     break;
                 case 1:
-                    windraeder[i].GetComponent<WindradScript>().Ausschalten(); 
+                    windraeder[i].GetComponent<Windmill>().Ausschalten(); 
                     break;
                 case 2:
-                    windraeder[i].GetComponent<WindradScript>().Ausschalten(); // Beispielaufruf für das dritte Windrad-Skript
+                    windraeder[i].GetComponent<Windmill>().Ausschalten(); 
                     break;
                
             }
@@ -42,13 +42,13 @@ public class WindradController : MonoBehaviour
             switch (i)
             {
                 case 0:
-                    windraeder[i].GetComponent<WindradScript>().Ausschalten(); 
+                    windraeder[i].GetComponent<Windmill>().Ausschalten(); 
                     break;
                 case 1:
-                    windraeder[i].GetComponent<WindradScript>().Ausschalten(); 
+                    windraeder[i].GetComponent<Windmill>().Ausschalten(); 
                     break;
                 case 2:
-                    windraeder[i].GetComponent<WindradScript>().Ausschalten(); 
+                    windraeder[i].GetComponent<Windmill>().Ausschalten(); 
                     break;
                     
             }

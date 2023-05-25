@@ -1,9 +1,10 @@
+using System;
 using UnityEngine;
 
 public class Windmill : MonoBehaviour
 {
-    public float windStrengthThreshold = 5f; // Mindeststärke des Windes, um den Sound abzuspielen
-    public AudioClip windSound; // Sound-Clip für den Wind
+    public float windStrengthThreshold = 5f; 
+    public AudioClip windSound; 
 
     private AudioSource audioSource;
 
@@ -35,9 +36,14 @@ public class Windmill : MonoBehaviour
         }
     }
 
-    private float GetWindStrength()
-    {
+   private float GetWindStrength()
+  {
  
-        return Random.Range(0f, 10f);
+    // return System.Random.Range(0f, 10f); 
+   }
+
+    internal void Ausschalten()
+    {
+        throw new NotImplementedException();
     }
 }

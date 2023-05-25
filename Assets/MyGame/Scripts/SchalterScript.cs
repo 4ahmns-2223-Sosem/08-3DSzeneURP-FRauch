@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class SchalterScript : MonoBehaviour
 {
-    public WindradController windradController; 
+    public Controller windradController; 
 
     private Button schalterButton;
 
