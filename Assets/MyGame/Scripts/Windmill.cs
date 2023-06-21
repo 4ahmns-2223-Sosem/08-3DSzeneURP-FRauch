@@ -38,8 +38,7 @@ public class Windmill : MonoBehaviour
 
    private float GetWindStrength()
   {
- 
-    // return System.Random.Range(0f, 10f); 
+        return 0f;
    }
 
     internal void Ausschalten()
