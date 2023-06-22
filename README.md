@@ -14,6 +14,7 @@ Lessons Learned:
 + switch/case (Controller.cs Zeile 42)
 + if/else (ObjectVoice.cs Zeile 16)
 + while (Controller.cs Zeile 37
+  
 Limitations:
 + compile errors
 + can't use the whole Controller.cs script due to previous bugs
