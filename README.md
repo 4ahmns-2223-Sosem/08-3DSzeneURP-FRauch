@@ -18,10 +18,14 @@ Lessons Learned:
 + implementing sounds into Unity (loops especially)
 + making a character controller on my own
   
+![Screenshot 2023-06-22 125737](https://github.com/4ahmns-2223-Sosem/08-3DSzeneURP-FRauch/assets/90834237/9e26e060-465a-4a2d-9a82-ed7c626a5ca7)
+
+![Screenshot 2023-06-22 125903](https://github.com/4ahmns-2223-Sosem/08-3DSzeneURP-FRauch/assets/90834237/849ad77e-663b-42af-af9d-69762d409397)
+
 Limitations:
 + compile errors
 + can't use the whole Controller.cs script due to previous bugs
 + character can't look vertical, even though he should
 + character walks backwars (S - forward, W - backwards, ....) - character is disabled right now
   
-![Screenshot 2023-06-22 125737](https://github.com/4ahmns-2223-Sosem/08-3DSzeneURP-FRauch/assets/90834237/9e26e060-465a-4a2d-9a82-ed7c626a5ca7)
+
