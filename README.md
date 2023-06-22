@@ -20,4 +20,6 @@ Lessons Learned:
 Limitations:
 + compile errors
 + can't use the whole Controller.cs script due to previous bugs
++ character can't look vertical, even though he should
++ character walks backwars (S - forward, W - backwards, ....)
   
