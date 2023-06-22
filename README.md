@@ -14,6 +14,8 @@ Lessons Learned:
 + switch/case (Controller.cs Zeile 42)
 + if/else (ObjectVoice.cs Zeile 16)
 + while (Controller.cs Zeile 37
++ implementing sounds into Unity (loops especially)
++ making a character controller on my own
   
 Limitations:
 + compile errors
